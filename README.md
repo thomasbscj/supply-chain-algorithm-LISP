@@ -3,7 +3,7 @@
 Supply chain stock prevision algorithm in LISP.
 
 ## PT
-Algorirmo de previsão de estoque de suprimentos em LISP.
+Algoritmo de previsão de estoque de suprimentos em LISP.
 
 # Business rules / Regras de negócio
 ## EN
@@ -32,3 +32,6 @@ Os outros três meses anteiores tem peso 4, 3, 2; 3, 2, 1; 1 ,1 ,1 até três an
 Se qualquer mês tiver valor da média +- 2.3\*desvio-padrão, ele deverá ter peso 0
 
 Todos os demais meses têm peso 1. A partir de seis anos para trás, o peso diminui em 10% a cada ano
+
+# LICENSE
+MIT
